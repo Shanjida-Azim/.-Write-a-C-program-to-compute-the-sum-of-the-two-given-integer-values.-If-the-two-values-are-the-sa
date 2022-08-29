@@ -1,0 +1,17 @@
+#include <stdio.h>
+   int main(){
+    int x,y,sum;
+    printf("Enter the two veriables:");
+    scanf("%d%d",&x ,&y);
+   if(x==y)
+   {
+       sum=(x+y)*3;
+       printf("%d",sum);
+   }
+   else
+   {
+       sum=x+y;
+       printf("%d",sum);
+    }
+
+}
